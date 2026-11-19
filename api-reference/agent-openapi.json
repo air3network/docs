@@ -5,8 +5,8 @@
     "version": "1.1.0",
     "description": "Partner-facing agent APIs for binding a holder's agent, minting a short-lived\nagent JWT, listing the holder's credentials, verifying them offchain, and\nminting a merchant checkout JWT.\n\n**Hosts:** AIR API (bind, keys, session, checkout) and Credential API (list,\nverify). The partner must have agent keys enabled. The AIR Kit partner access\ntoken is a **user-bound** holder session.\n\n**Typical flow**\n\n1. Bind once (`POST /v2/auth/agent/keys/partner`). Save `agentApiKey` — it is\n   returned only on bind and rotate.\n2. Create a session per operation (`POST /v2/auth/agent/session`). The agent\n   JWT lasts **15 minutes** and has no refresh token.\n3. List (`GET /v2/credentials`) and/or verify\n   (`POST /v2/credentials/verify-by-agent`) with `Authorization: Bearer`.\n4. Optional: mint a checkout JWT (`POST /v2/auth/agent/checkout-session`) when\n   the bound key includes `commerce.checkout`.\n\nPartner bind cannot include `wallet.sign`. `openid` is added automatically on\nbind. Partner scopes: `credentials.read`, `credentials.verify`,\n`commerce.checkout`. Mutating key routes (bind, rotate, revoke) require\n`x-partner-jwt`. Listing keys and updating a nickname use the AIR Kit session\nonly.\n",
     "contact": {
-      "name": "Moca Network",
-      "url": "https://moca.network"
+      "name": "AIR3 Network",
+      "url": "https://air3.com"
     }
   },
   "servers": [
