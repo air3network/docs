@@ -86,7 +86,7 @@ If the dev server fails to start or pages render as 404s, run `mint update` to u
 
 ## Contributing changes via pull request
 
-The repository lives at [github.com/MocaNetwork/docs](https://github.com/MocaNetwork/docs) and the default branch is `main`.
+The repository lives at [github.com/MocaNetwork/docs](https://github.com/Air3Network/docs) and the default branch is `main`.
 
 <a id="open-a-pull-request"></a>
 
@@ -95,7 +95,7 @@ The repository lives at [github.com/MocaNetwork/docs](https://github.com/MocaNet
 If you have write access, clone directly:
 
 ```bash
-git clone https://github.com/MocaNetwork/docs.git
+git clone https://github.com/Air3Network/docs.git
 cd docs
 ```
 
@@ -104,7 +104,7 @@ If you do not, click **Fork** on GitHub, then clone your fork and add the upstre
 ```bash
 git clone https://github.com/<your-user>/docs.git
 cd docs
-git remote add upstream https://github.com/MocaNetwork/docs.git
+git remote add upstream https://github.com/Air3Network/docs.git
 ```
 
 ### 2. Create a branch
@@ -173,5 +173,5 @@ In the PR description include:
 
 - Mintlify component and configuration reference: [mintlify.com/docs](https://mintlify.com/docs)
 - Mintlify CLI reference: [npmjs.com/package/mint](https://www.npmjs.com/package/mint)
-- Moca Network GitHub: [github.com/MocaNetwork](https://github.com/MocaNetwork)
+- Moca Network GitHub: [github.com/MocaNetwork](https://github.com/Air3Network)
 - Community: [Discord](https://discord.gg/mocaversenft) · [X](https://twitter.com/Moca_Network)

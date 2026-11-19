@@ -36,7 +36,7 @@ If AIR cannot fetch your JWKS, or no key in it matches the JWT's `kid`, the requ
 
 ## Step 1: Implement the route
 
-This Next.js route is the one used by every issuer and verifier app in [`air-examples`](https://github.com/MocaNetwork/air-examples). It converts your public key from PEM to JWK with [`jose`](https://github.com/panva/jose) and sets `kid` to your Partner ID.
+This Next.js route is the one used by every issuer and verifier app in [`air-examples`](https://github.com/Air3Network/air-examples). It converts your public key from PEM to JWK with [`jose`](https://github.com/panva/jose) and sets `kid` to your Partner ID.
 
 ```ts app/api/.well-known/jwks/route.ts
 import { NextResponse } from "next/server";
