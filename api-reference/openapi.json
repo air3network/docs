@@ -1,12 +1,12 @@
 {
   "openapi": "3.0.3",
   "info": {
-    "title": "Moca Network API",
-    "description": "Server-to-server API for credential issuance and partner operations on the Moca Network.",
+    "title": "AIR3 Network API",
+    "description": "Server-to-server API for credential issuance and partner operations on the AIR3 Network.",
     "version": "1.0.0",
     "contact": {
-      "name": "Moca Network",
-      "url": "https://moca.network"
+      "name": "AIR3 Network",
+      "url": "https://air3.com"
     }
   },
   "servers": [
