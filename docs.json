@@ -58,7 +58,7 @@
   "social": {
     "x": "https://twitter.com/Moca_Network",
     "discord": "https://discord.gg/mocaversenft",
-    "github": "https://github.com/MocaNetwork"
+    "github": "https://github.com/Air3Network"
   },
   "navbar": {
     "links": [
@@ -195,11 +195,9 @@
         "menu": [
           {
             "item": "AIR Identity",
-            "icon": "id-card",
             "pages": [
               {
                 "group": "AIR Identity",
-                "icon": "id-card",
                 "pages": [
                   "products/identity/integrating-using-ai"
                 ]
@@ -273,11 +271,9 @@
           },
           {
             "item": "AIR Agent",
-            "icon": "robot",
             "pages": [
               {
                 "group": "AIR Agent",
-                "icon": "robot",
                 "pages": [
                   "products/agents/integrating-using-ai"
                 ]
@@ -309,6 +305,7 @@
                 "group": "Working with Agents",
                 "pages": [
                   "products/agents/integration-options",
+                  "products/agents/edge-gating-cloudflare",
                   {
                     "group": "Using Agentic Identity",
                     "root": "products/agents/partner-agent-api",
@@ -330,11 +327,9 @@
           },
           {
             "item": "AIR Money",
-            "icon": "wallet",
             "pages": [
               {
                 "group": "AIR Money",
-                "icon": "wallet",
                 "pages": [
                   "products/money/integrating-using-ai"
                 ]
@@ -390,11 +385,9 @@
           },
           {
             "item": "AIR Loyalty",
-            "icon": "gift",
             "pages": [
               {
                 "group": "AIR Loyalty",
-                "icon": "gift",
                 "pages": [
                   "products/loyalty/integrating-using-ai"
                 ]
@@ -497,7 +490,6 @@
         "menu": [
           {
             "item": "Architecture",
-            "icon": "diagram-project",
             "groups": [
               {
                 "group": "Overview",
@@ -551,7 +543,6 @@
           },
           {
             "item": "Moca Chain",
-            "icon": "link",
             "groups": [
               {
                 "group": "Introduction",
