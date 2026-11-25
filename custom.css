@@ -1296,6 +1296,10 @@ div[data-component-part="step-indicator"] > div {
 }
 
 @media (max-width: 1079px) {
+  #content-container {
+    padding-block-start: 128px;
+  }
+
   .docs-landing .feature-list {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1332,6 +1336,9 @@ div[data-component-part="step-indicator"] > div {
 }
 
 @media (max-width: 640px) {
+  #content-container {
+    padding-block-start: 0;
+  }
   #navbar [class~="h-16"] {
     padding-inline: 16px !important;
   }
